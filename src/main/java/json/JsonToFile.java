@@ -10,8 +10,8 @@ import java.io.IOException;
 public class JsonToFile {
 		public static void main(String[] args)  throws IOException {
 				File f = new File("person1.json");
-				new ObjectMapper().createGenerator(f, JsonEncoding.UTF8)
-								.writeObject(new PersonDto("Vasya", 18));
+//				new ObjectMapper().createGenerator(f, JsonEncoding.UTF8)
+//								.writeObject(new PersonDto("Vasya", 18));
 
 		}
 }

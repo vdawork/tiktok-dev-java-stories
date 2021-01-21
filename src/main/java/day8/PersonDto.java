@@ -11,9 +11,8 @@ import lombok.ToString;
 @Getter
 @ToString
 public class PersonDto {
-		@JsonProperty("firstname")
+//		@JsonProperty("firstname")
 		private String name;
 		private int age;
-
 
 }
